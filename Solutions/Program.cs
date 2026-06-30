@@ -102,6 +102,22 @@ namespace Solutions
             //ValidParenthesesSolution validParentheses = new ValidParenthesesSolution();
             //Console.WriteLine(validParentheses.IsValid("()"));
             #endregion
+
+            #region Merge Two Lists
+            MergeTwoListsSolution mergeTwoLists = new MergeTwoListsSolution();
+            ListNode listNode1 = new ListNode(1);
+            listNode1.next = new ListNode(2);
+            listNode1.next.next = new ListNode(4);
+            ListNode listNode2 = new ListNode(1);
+            listNode2.next = new ListNode(3);
+            listNode2.next.next = new ListNode(4);
+            ListNode result = mergeTwoLists.MergeTwoLists(listNode1, listNode2);
+            while (result != null)
+            {
+                Console.Write(result.val + " ");
+                result = result.next;
+            }
+            #endregion
         }
     }
 }

@@ -29,3 +29,5 @@ The solutions are categorized by difficulty levels to keep the project organized
 | 3 | Longest Substring Without Repeating Characters | Medium | [View Code](./Solutions/Medium/LongestSubstringSolution.cs) | Sliding Window |
 | 18 | 4Sum | Medium | [View Code](./Solutions/Medium/FourSumSolution.cs) | Two Pointers / Sorting |
 | 19 | Remove Nth Node From End of List | Medium | [View Code](./Solutions/Medium/RemoveNthFromEndSolution.cs) | Two Pointers (Fast & Slow) |
+| 21 | Merge Two Sorted Lists | Easy | [View Code](./Solutions/Easy/MergeTwoListsSolution.cs) | Linked List / Math |
+| 23 | Merge k Sorted Lists | Hard | [View Code](./Solutions/Hard/MergeKSortedListsSolution.cs) | Divide and Conquer / Merge Sort |
