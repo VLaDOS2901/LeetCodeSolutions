@@ -104,20 +104,28 @@ namespace Solutions
             #endregion
 
             #region Merge Two Lists
-            MergeTwoListsSolution mergeTwoLists = new MergeTwoListsSolution();
-            ListNode listNode1 = new ListNode(1);
-            listNode1.next = new ListNode(2);
-            listNode1.next.next = new ListNode(4);
-            ListNode listNode2 = new ListNode(1);
-            listNode2.next = new ListNode(3);
-            listNode2.next.next = new ListNode(4);
-            ListNode result = mergeTwoLists.MergeTwoLists(listNode1, listNode2);
-            while (result != null)
-            {
-                Console.Write(result.val + " ");
-                result = result.next;
-            }
+            //MergeTwoListsSolution mergeTwoLists = new MergeTwoListsSolution();
+            //ListNode listNode1 = new ListNode(1);
+            //listNode1.next = new ListNode(2);
+            //listNode1.next.next = new ListNode(4);
+            //ListNode listNode2 = new ListNode(1);
+            //listNode2.next = new ListNode(3);
+            //listNode2.next.next = new ListNode(4);
+            //ListNode result = mergeTwoLists.MergeTwoLists(listNode1, listNode2);
+            //while (result != null)
+            //{
+            //    Console.Write(result.val + " ");
+            //    result = result.next;
+            //}
             #endregion
-        }
-    }
+
+            #region Generate Parentheses
+            List<string> strings = (List<string>)GenerateParenthesisSolution.GenerateParenthesis(3);
+			foreach (string s in strings)
+			{
+                Console.WriteLine(s);
+			}
+			#endregion
+		}
+	}
 }
