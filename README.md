@@ -31,4 +31,5 @@ The solutions are categorized by difficulty levels to keep the project organized
 | 19 | Remove Nth Node From End of List | Medium | [View Code](./Solutions/Medium/RemoveNthFromEndSolution.cs) | Two Pointers (Fast & Slow) |
 | 21 | Merge Two Sorted Lists | Easy | [View Code](./Solutions/Easy/MergeTwoListsSolution.cs) | Linked List / Math |
 | 23 | Merge k Sorted Lists | Hard | [View Code](./Solutions/Hard/MergeKSortedListsSolution.cs) | Divide and Conquer / Merge Sort |
-| 22 | Generate Parentheses | Medium | [View Code](./Solutions/Medium/GenerateParenthesesSolution.cs) | Backtracking / Recursion |
+| 22 | Generate Parentheses | Medium | [View Code](./Solutions/Medium/GenerateParenthesisSolution.cs) | Backtracking / Recursion |
+| 24 | Swap Nodes in Pairs | Medium | [View Code](./Solutions/Medium/SwapNodesInPairsSolution.cs) | Linked List / Two Pointers |
