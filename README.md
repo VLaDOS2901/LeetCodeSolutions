@@ -33,3 +33,4 @@ The solutions are categorized by difficulty levels to keep the project organized
 | 23 | Merge k Sorted Lists | Hard | [View Code](./Solutions/Hard/MergeKSortedListsSolution.cs) | Divide and Conquer / Merge Sort |
 | 22 | Generate Parentheses | Medium | [View Code](./Solutions/Medium/GenerateParenthesisSolution.cs) | Backtracking / Recursion |
 | 24 | Swap Nodes in Pairs | Medium | [View Code](./Solutions/Medium/SwapNodesInPairsSolution.cs) | Linked List / Two Pointers |
+| 25 | Reverse Nodes in k-Group | Hard | [View Code](./Solutions/Hard/ReverseNodesInKGroupSolution.cs) | Linked List / Backtracking |

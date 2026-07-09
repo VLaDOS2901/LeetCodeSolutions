@@ -1,4 +1,5 @@
 ﻿using Solutions.Easy;
+using Solutions.Hard;
 using Solutions.Medium;
 using Solutions.Models;
 using System.Text.Json;
@@ -128,13 +129,27 @@ namespace Solutions
 			#endregion
 
 			#region Swap Nodes in Pairs
+			//ListNode head = new ListNode(1);
+			//head.next = new ListNode(2);
+			//head.next.next = new ListNode(3);
+			//head.next.next.next = new ListNode(4);
+			//SwapNodesInPairsSolution swapNodesInPairs = new SwapNodesInPairsSolution();
+			//head = swapNodesInPairs.SwapPairs(head);
+			//while(head != null)
+			//{
+			//	Console.Write(head.val + " ");
+			//	head = head.next;
+			//}
+			#endregion
+
+			#region Swap Nodes in Pairs
 			ListNode head = new ListNode(1);
 			head.next = new ListNode(2);
 			head.next.next = new ListNode(3);
 			head.next.next.next = new ListNode(4);
-			SwapNodesInPairsSolution swapNodesInPairs = new SwapNodesInPairsSolution();
-			head = swapNodesInPairs.SwapPairs(head);
-			while(head != null)
+			ReverseNodesInKGroupSolution reverseNodesInKGroup = new ReverseNodesInKGroupSolution();
+			head = reverseNodesInKGroup.ReverseKGroup(head, 2);
+			while (head != null)
 			{
 				Console.Write(head.val + " ");
 				head = head.next;
